@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeeun (3 Es!)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 60px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            transition: opacity 0.2s;
+        }
+
+        .contact-links a:hover {
+            opacity: 0.6;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            border: 1px solid #e0e0e0;
+            padding: 25px;
+            transition: box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .simple-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .simple-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .simple-list li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seeeun Cho</h1>
+        <p class="tagline">Living in Charlottenburg, Berlin • From Korea</p>
+        <div class="contact-links">
+            <a href="mailto:nueees@gmail.com">Email</a>
+            <a href="https://github.com/nueees" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/nueees" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Hey! My name is Seeeun (three E's - it's pronounced "Si-Eun" but Germans always want to delete one). I'm a software engineer working with data to help teams get things done better.</p>
+    </section>
+
+    <section id="work">
+        <h2>What I Do</h2>
+        <p>I work with everyday data from teams - looking at how projects are running and figuring out what could be better. I make charts that show how team time is split up and where things are getting stuck. Basically, I watch what's happening and help find ways to make work faster and easier.</p>
+
+    </section>
+
+    <section id="life">
+        <h2>Life & Hobbies</h2>
+        <ul class="simple-list">
+            <li>🏃‍♀️ <strong>Running</strong> - Freizeitsportlerin I love it for stress relief and fresh air. Finished the Berlin Marathon 2025.</li>
+            <li>🇩🇪 <strong>Learning German</strong> - Working on it to understand the culture better, also to handle daily stuff like supermarkets, doctors, and work conversations.</li>
+            <li>🤿 <strong>Exploring the Sea</strong> - Scuba diving.</li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <p>© 2025 Seeeun </p>
+    </footer>
+</body>
+</html>
